@@ -1,5 +1,6 @@
-# Task 2 
-# UniversityDB
+# Task 2 - UniversityDB
+ UniversityDB_query.sql - sql file to creat database
+ UniversityDB_Diagram.png - diagram that shows relation between tables
 
 1.Will craete data base called 'UniversityDB' at default location in disk 'c:\' - which can be chaned by modifying path location in UniversityDB_query.sql file 
 

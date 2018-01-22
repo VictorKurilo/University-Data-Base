@@ -345,7 +345,7 @@ values
 insert into Students(FirstName, MiddleName, LastName, Email)
 values
 ('Victor','Victorovich','Propenko','propenko@gmail.com'),
-('Andrey','Andreevich÷','Kruk','kruk@hotmail.com'),
+('Andrey','Andreevich','Kruk','kruk@hotmail.com'),
 ('Mihail','Mihailovich','Desyatkova','desyatkova@mail.ru'),
 ('Stepan','Stepanovich','Shevchenko','shevchenko@gmail.com'),
 ('Ivan','Ivanovich','Dmitrov','dmitrov15@gmail.com'), 

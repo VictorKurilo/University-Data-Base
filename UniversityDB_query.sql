@@ -306,33 +306,33 @@ add check ([name] in ('beginner', 'intermediate', 'professional', 'expert'))
 insert into Adress([Adress], City, Postal_Code)
 values
 
-('Ðóäådíêî 21à, 137','Òåðíîïîëü','0635'),
-('Áàæîâà 77','Êèåâ','0933'),
-('Áàæàíà 6, 22','Ìîñêâà','6867'),
-('Ìûøóãè 25','Ëüâîâ','9111'),
-('Äðóæíîâà 15','Ìèíñê','9325'),
-('Êîâïàêà 24, 17','Êèåâ','1311'),
-('Ëåñíàÿ 21','Òåðíîïîëü','2144'),
-('Äîðîæíàÿ 77, 99','Ìîñêâà','1255'),
-('Êîíòðàêòíà 20','Íèêîëàåâ','1533'),
-('Ìåäîâàÿ 1','Ìèíñê','9380'),
-('Àðòåìà 23','Ëüâîâ','5558'),
-('Ìèñêàÿ 2, 17','Ìèíñê','9635'),
-('Âîñòî÷íàÿ 7','Êèåâ','1133'),
-('Êóðñêàÿ 6, 22','Ìîñêâà','10067'),
-('Äðåâíåÿ 115','Ñìîëåíñê','2111'),
-('Ñðóæíàÿ 13','Ìèíñê','3125'),
+('Rudenko 21, 137','Kiev','0635'),
+('Bajova 77','Minsk','0933'),
+('Mushigi 6, 22','Moscow','6867'),
+('Kovpaka 25','Kiev','9111'),
+('Stolichnaya 15','Minsk','9325'),
+('Esnaya 24, 17','Moscow','1311'),
+('Gorodskaya 21','Smolensk','2144'),
+('Dorojnaya 77, 99','Minsk','1255'),
+('Vusotskaya 20','Moscow','1533'),
+('Zimneya 1','Minsk','9380'),
+('Medovaya 23','Moscow','5558'),
+('Lvova 2, 17','Minsk','9635'),
+('Resbulikansya 7','Moscow','1133'),
+('Lesnaya 6, 22','Moscow','10067'),
+('Ukfevnaya 115','Minsk','2111'),
+('Glavnaya 13','Minsk','3125'),
 ('Main Street 13','New York','3125'),
-('Ìàøåðîâà 1','Ìèíñê','1250'),
-('Ñíåæíïÿ 3','Ìèíñê','1233'),
-('Ñòîëè÷íàÿ 77','Ìîñêâà','10205')
+('Side 1','Moscwo','1250'),
+('Prospect 3','Moscwo','1233'),
+('Urevki 77','Minsk','10205')
 
 insert into Job ([Name])
 values
-('Ïðîãðàììèñò'),
-('Ïðîäàâåö'),
-('Îâèöèàíò'),
-('Òðåíåð')
+('Programmer'),
+('Shop Assistant'),
+('Waiter'),
+('Photographer')
 
 
 insert into Job_info(id, Adress_ID, Phone, [Start_Date], [Finish_Date], Salary)
@@ -344,17 +344,17 @@ values
 
 insert into Students(FirstName, MiddleName, LastName, Email)
 values
-('Âèêòîð','Âèêòîðîâè÷','Ïðîêîïåíêî','propenko@gmail.com'),
-('Àíòîí','Îëåãîâè÷','Êðóê','kruk@hotmail.com'),
-('Îêñàíà','Âëàäèìèðîâíà','Äåñÿòîâà','desyatkova@mail.ru'),
-('Àíòîíèíà','Äìèòðèåâíà','Øåâ÷åíêî','shevchenko@gmail.com'),
-('Àíàòîëèé','Ïåòðîâè÷','Äìèòðîâ','dmitrov15@gmail.com'), 
-('Èâàí','Èâàíîâè÷','Êîáçàð','kobzak.invan@mail.ru'), 
-('Âèêòîð','Îëåãîâè÷','Ãðà÷ü','victor.oleg@gmail.com'), 
-('Îëüãà','Àëåêñååâíà','Áóòêîâà','butova@hotmail.com'), 
-('Àëèíà','Ìèõàéëîâíà','Ìåëîâà','melova.alina@yahoo.com'), 
-('Ìèõàèë','Àíäðååâè÷','Ñàâèöêèé','mikhail.andreay@gmail.com'),
-('Àðòåì','Èâàíîâè÷','Êðàâà','artem200@mail.ru') 
+('Victor','Victorovich','Propenko','propenko@gmail.com'),
+('Andrey','Andreevich÷','Kruk','kruk@hotmail.com'),
+('Mihail','Mihailovich','Desyatkova','desyatkova@mail.ru'),
+('Stepan','Stepanovich','Shevchenko','shevchenko@gmail.com'),
+('Ivan','Ivanovich','Dmitrov','dmitrov15@gmail.com'), 
+('Oleg','Olegovich','Kobzak','kobzak.invan@mail.ru'), 
+('Sasha','Victorovich','Oleg','victor.oleg@gmail.com'), 
+('Alex','Aleksandra','Butova','butova@hotmail.com'), 
+('Irina','Irinovna','Melova','melova.alina@yahoo.com'), 
+('Misha','Mikhailovich','Andreev','mikhail.andreay@gmail.com'),
+('Anton','Antonovich','Artur','artem200@mail.ru') 
 
 
 insert into Students_Info(id, Adress_ID, Job_ID, Phone, Sex, BirthDate)

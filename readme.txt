@@ -1,3 +1,4 @@
+# Task 2 
 # UniversityDB
 
 1.Will craete data base called 'UniversityDB' at default location in disk 'c:\' - which can be chaned by modifying path location in UniversityDB_query.sql file 
